@@ -1,0 +1,27 @@
+---------Email Validator-----------
+~~~~~Kodas
+Paprastas validavimas, susideda iš domeno ir tld tikrinimo. Domeno tikrinimo taisyklės yra komentaruose kode,
+o validūs TLD yra atsisiųsti CSV faile.
+Taip pat tikrinama ar nėra nelegalių simbolių ir daugiau nei vieno @ simbolio.
+
+~~~~~Testai
+Kodas aiškus, visi tikrinimai, kurie reikalingi, yra. Pagerinčiau iškeldamas pavienius testus į atskirus, t.y.
+nedėčiau daugiau nei vieno (ne)validumo tikrinimo į vieną testą.
+
+---------Phone Validator-----------
+~~~~~Kodas
+Paprastas ilgio ir simbolių tikrinimas su pasirinktinu papildomo prefikso tikrinimu
+
+~~~~~Testai
+Pastabos tos pačios kaip iš EmailValidator testų.
+
+---------Password Checker-----------
+~~~~~Kodas
+Paprastas trijų taisyklių (ilgis, didžiosios raidės, specialūs simboliai) tikrinimas, pažiūrėjus į kodą
+turėtų būti pakankamai aiškus.
+
+~~~~~Testai
+Testai visiškai nelogiški, tikrinama tas pats visuose trijuose testuose, tačiau tikimasi skirtingų rezultatų.
+Be to, kad nelogiška, yra neįmanoma praeiti tokių testų.
+Merge request sukurtas su (man atrodančiais) logiškais pataisymais, tačiau panašu, jog pakeitimai nebus implementuoti.
+Failo rašymo metu (Spalio 2d. 23:00) testai nėra atnaujinti, tačiau implementacija nuo jų nesikeičia.
